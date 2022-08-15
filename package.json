@@ -1,0 +1,36 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "purgecss": "purgecss --css sass/custom.css --content *.html ./src/**/*.jsx -o sass/purged.css"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "6.1.1",
+    "@fortawesome/free-regular-svg-icons": "6.1.1",
+    "@fortawesome/free-solid-svg-icons": "6.1.1",
+    "@fortawesome/react-fontawesome": "0.2.0",
+    "axios": "0.27.2",
+    "bootstrap": "5.2.0",
+    "react": "18.2.0",
+    "react-contenteditable": "3.3.6",
+    "react-dom": "18.2.0",
+    "react-horizontal-scroll-grid": "0.1.4",
+    "react-redux": "8.0.2",
+    "react-router-dom": "6.3.0",
+    "redux": "4.2.0",
+    "redux-thunk": "2.4.1",
+    "sweetalert2": "11.4.24"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "@vitejs/plugin-react": "2.0.0",
+    "purgecss": "4.1.3",
+    "vite": "3.0.0"
+  }
+}

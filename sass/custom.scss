@@ -1,0 +1,335 @@
+// ACCORDION
+$accordion-button-active-color: #0dcaf0;
+$accordion-button-active-bg: white;
+
+$accordion-button-focus-box-shadow: none;
+$accordion-border-width: 0;
+
+
+// FORMS
+$input-bg: #e9ecef;
+$input-border-color: #e9ecef;
+
+$input-focus-box-shadow: none;
+$input-focus-border-color: #e9ecef;
+
+
+//INPUTS
+$input-group-addon-border-color: #e9ecef;
+
+
+//COLORS
+$primary: white;
+$secondary: #e9ecef;
+$info: #0dcaf0;
+$danger: #b64141;
+$success: #63cb77;
+
+
+//POSITION VALUES
+$position-values: (
+    0: 0,
+    50: 1px,
+    100: 35px
+);
+
+$h6-font-size: 0.75rem;
+
+
+// CUSTOM CSS
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+// LOGIN
+.padding-login {
+    padding-top: 50%;
+}
+
+
+// GENERALS
+.general-container {
+    height: 88.7vh;
+}
+
+
+// NEWS
+.news-container {
+    height: 78%;
+    padding-right: 0 !important;
+}
+
+.news {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.news:last-child {
+    border-bottom: none;
+}
+
+
+// SOLUTIONS
+.vh-description {
+    height: 20vh;
+}
+
+.vh-editable {
+    height: 64vh;
+}
+
+.vh-edit-editable {
+    height: 32vh;
+}
+
+.vh-content {
+    height: 89vh;
+}
+
+.vh-description-noselected {
+    height: 86vh
+}
+
+.h-descriptionbuttons {
+    height: 50px;
+    overflow-x: hidden;
+}
+
+.solutiondescription {
+    height: 35%;
+}
+
+.h-editable {
+    height: 57.8vh;
+}
+
+.w-editable {
+    width: 55vw;
+}
+
+.h-editable:focus {
+    outline: none;
+}
+
+.editable-position {
+    bottom: 10px;
+}
+
+.editable-appear {
+    z-index: 1;
+}
+
+.tabs {
+    width: 100px;
+    height: auto !important;
+}
+
+.w-notes {
+    width: 24vw;
+}
+
+.notes-position {
+    bottom: 10px;
+    right: 26px;
+}
+
+
+// CONTAINERS
+.vh-credentials {
+    height: 86vh;
+}
+
+
+// BUTTONS
+.rounded-btn-size {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.absolute-addbtn {
+    bottom: 10px;
+    right: 25px;
+    background-color: #0dcaf0;
+    color: white;
+    border: 4px solid #0dcaf0;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.absolute-deletebtn {
+    bottom: 70px;
+    right: 25px;
+    background-color: white;
+    color: #0dcaf0;
+    border: 4px solid #0dcaf0;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.absolute-editbtn {
+    bottom: 130px;
+    right: 25px;
+    background-color: white;
+    color: #0dcaf0;
+    border: 4px solid #0dcaf0;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.hover-absolute-delete:hover,
+.hover-absolute-edit:hover {
+    background-color: #0dcaf0;
+    color: white;
+    border: 4px solid #0dcaf0;
+}
+
+.hover-absolute-add:hover {
+    background-color: white;
+    color: #0dcaf0;
+    border: 4px solid #0dcaf0;
+}
+
+.addbtn {
+    background-color: #0dcaf0 !important;
+    color: white !important;
+    border: 2px solid #0dcaf0 !important;
+    transition: all 0.3s ease !important;
+    z-index: 2 !important;
+}
+
+.deletebtn {
+    background-color: white !important;
+    color: #0dcaf0 !important;
+    border: 2px solid #0dcaf0 !important;
+    transition: all 0.3s ease !important;
+    z-index: 2 !important;
+}
+
+.editbtn {
+    background-color: white !important;
+    color: #0dcaf0 !important;
+    border: 2px solid #0dcaf0 !important;
+    transition: all 0.3s ease !important;
+    z-index: 2 !important;
+}
+
+
+// HOVERS
+.hover-delete:hover,
+.hover-edit:hover {
+    background-color: #0dcaf0 !important;
+    color: white !important;
+    border: 2px solid #0dcaf0 !important;
+}
+
+.hover-add:hover {
+    background-color: white !important;
+    color: #0dcaf0 !important;
+    border: 2px solid #0dcaf0 !important;
+}
+
+.hover:hover {
+    color: #0dcaf0;
+}
+
+.hover-a:hover #search-title {
+    color: #0dcaf0;
+}
+
+
+// GENERICS
+.overflow-points {
+    height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.go-front {
+    z-index: 1;
+    width: inherit;
+}
+
+.transition-none {
+    transition: none !important;
+}
+
+.cyan {
+    color: #0dcaf0;
+}
+
+.active:active {
+    color: #0dcaf0;
+}
+
+
+// MEDIA
+@media (max-width: 1400px) {
+    .w-editable {
+        width: 70vw;
+    }
+
+    .general-container {
+        width: 97% !important;
+        height: 60vh;
+        max-height: 60vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        margin: 0 auto;
+    }
+
+    .vh-editable {
+        height: 46vh;
+        max-height: 46vh;
+    }
+
+    .h-editable {
+        height: 39.8vh;
+    }
+
+    .vh-description-noselected {
+        height: 60vh
+    }
+
+    .vh-description {
+        height: 12vh;
+    }
+}
+
+@media (max-width: 990px) {
+    .vh-editable {
+        height: 38vh;
+        max-height: 38vh;
+    }
+
+    .h-editable {
+        height: 31.8vh;
+    }
+
+    .vh-credentials {
+        height: 76.5vh;
+    }
+
+    .vh-description-noselected {
+        height: 52.5vh
+    }
+
+    .general-container {
+        height: 51vh;
+        max-height: 51vh;
+    }
+
+}
+
+@media (max-width: 840px) {
+    .w-notes {
+        display: none
+    }
+
+    .w-editable {
+        width: 93.5vw;
+    }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap"
