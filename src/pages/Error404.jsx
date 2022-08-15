@@ -1,9 +1,19 @@
+import Header from "../components/header/Header";
 
-
-const Error404 = () => {
+const Credentials = () => {
     return (
-        <div>Error404</div>
-    )
-}
+        <div className="row">
 
-export default Error404
+            <Header/>
+
+            <div className="container-fluid p-4 rounded vh-description-noselected">
+                <div className="d-flex align-items-center justify-content-center transition-none bg-secondary vh-credentials rounded">
+                    <p className="fs-2 fw-bold text-muted mb-0">Error 404</p>
+                </div>
+
+            </div>
+        </div>
+    );
+}
+ 
+export default Credentials;

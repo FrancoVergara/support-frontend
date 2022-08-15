@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "purgecss": "purgecss --css sass/custom.css --content *.html ./src/**/*.jsx -o sass/purged.css"
+    "purgecss": "purgecss --css sass/custom.css --content *.html ./src/**/*.jsx ./**/*.js -o sass/purged.css"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "6.1.1",
